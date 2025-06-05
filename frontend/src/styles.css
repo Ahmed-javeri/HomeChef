@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e; 
+  color: #beb6b6;
+}
+
+
+nav {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #00bcd4;
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #ff1744;
+}
+
+
+.page-container {
+  padding: 30px;
+}
+
+
+.dish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+
+.dish-card {
+  background-color: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.dish-card img {
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.dish-card button {
+  background-color: #00c853;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dish-card button:hover {
+  background-color: #00e676;
+}
+
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #2196f3;
+}
+
+
+.order-box,
+.feedback-box {
+  background-color: #2d2d2d;
+  border: 1px solid #555;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: #2c2c2c;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #111;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form input {
+  background-color: #1e1e1e;
+}
+
+.login-form button {
+  width: 100%;
+}
+
+
+.cart-page {
+  background-color: #1f1f1f;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.cart-page button {
+  background-color: #00c853;
+}
+
+.cart-page button:hover {
+  background-color: #00e676;
+}
+
+
+hr {
+  border-color: #555;
+}
+.homepage-container {
+  padding: 30px;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.homepage-heading {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.dish-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.dish-card {
+  background-color: #2e2e31;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+.dish-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.add-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.report-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.cart-container,
+.admin-panel {
+  padding: 30px;
+  color: #f2f2f2;
+}
+
+.cart-box,
+.order-box,
+.feedback-box {
+  background-color: #2e2e31;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #444;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.place-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px;
+  margin-top: 15px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.form-section input {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #444;
+  color: #f2f2f2;
+}
+
+.feedback-toggle {
+  background-color: #ffc107;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
